@@ -1,0 +1,46 @@
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+
+  .card {
+    background: lightblue;
+    color: black;
+    padding: 50px;
+    border-radius: 30px;
+    width: 100%;
+    max-width: 500px;
+    margin: 30px;
+  }
+
+  .search {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  button{
+      width: 30px;
+      height: 30px;
+      cursor: pointer;
+      border-radius: 5px;
+      margin: 5px;
+      outline: none;
+      border: none;
+  }
+  .search-bar {
+    border:1px gray solid;
+    padding: 5px 0;
+    outline: none;
+    padding: auto;
+    border-radius: 5px;
+    color:black;
+    font-family: inherit;
+    font-size: 105%;
+    
+  }
