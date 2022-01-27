@@ -1,8 +1,6 @@
 
 body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    
     height: 100vh;
     margin: 0;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
@@ -10,13 +8,15 @@ body {
 }
 
   .card {
-    background: lightblue;
+    background:lightgray;
+    opacity: 90%;
     color: black;
     padding: 50px;
-    border-radius: 30px;
+    border-radius: 80px 0 0px 0;
     width: 100%;
     max-width: 500px;
-    margin: 30px;
+    margin: 135px 30px;
+    box-shadow: 3px 3px 5px black;
   }
 
   .search {
@@ -43,4 +43,25 @@ body {
     font-family: inherit;
     font-size: 105%;
     
+  }
+  .icon{
+    width: 80px;
+  }
+  .description{
+      color:whitesmoke;
+      font-size: 25px;
+      font-weight:bold;
+  }
+  .humidity{
+    font-size: 25px;
+    font-weight:bold;
+    margin-top: 10px;
+      
+  }
+  .wind{
+
+    font-size: 25px;
+    font-weight:bold;
+    margin-top: 10px;
+
   }
