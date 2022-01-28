@@ -1,6 +1,6 @@
 
 import data from "./config.js";
-console.log(data.key);
+console.log(data.key);    // test
 
 const weather = {
     apiKey: data.key,
