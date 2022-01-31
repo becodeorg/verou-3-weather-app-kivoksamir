@@ -6,15 +6,19 @@ const weather = {
     apiKey: data.key,
     fetchWeather: function (city) {
       fetch(
-        "https://api.openweathermap.org/data/2.5/weather?q=" +city +"&units=metric&appid=" +this.apiKey)
+        "https://api.openweathermap.org/data/2.5/weather?q=" 
+        +city +
+        "&units=metric&appid=" 
+        +this.apiKey)
+        
         .then((response) => {
-          if (!response.ok) {
+          if (!response.ok) {   // check if the respond is not ok .. 
             alert("city name is not correct !");
             
           }
-          return response.json();
+          return response.json();    // convert response to json to be accessible  .. this return new promis
         })
-        .then((data) => this.displayWeather(data));
+        .then((data) => this.displayWeather(data)); // so we need new (then) (there are out actual data)
     },
 
     
