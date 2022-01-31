@@ -7,10 +7,10 @@ const weather = {
     fetchWeather: function (city) {
       fetch(
         "https://api.openweathermap.org/data/2.5/weather?q=" 
-        +city +
+        + city +
         "&units=metric&appid=" 
         +this.apiKey)
-        
+
         .then((response) => {
           if (!response.ok) {   // check if the respond is not ok .. 
             alert("city name is not correct !");
