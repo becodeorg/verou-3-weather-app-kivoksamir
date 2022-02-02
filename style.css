@@ -11,16 +11,19 @@ body {
 }
 
   .card {
-    background:rgba(180,180,180, 0.8);
-    color:black;
+    
+    color:whitesmoke;
     padding: 50px;
     width: 25%;
     min-width: 350px;
-    margin: 135px auto;
-    border: gray 1px solid;
+    margin: 100px auto;
+    
+    background-image:url(images/weather.png);
+    border-radius: 15px;
     
   
   }
+
 
   .search {
     display: flex;
@@ -39,6 +42,7 @@ body {
   button:hover{
     background: lightslategray;
   }
+
   .search-bar {
     border:1px gray solid;
     padding: 5px 10px;
@@ -51,32 +55,41 @@ body {
     
   }
   .icon{
-    width: 80px;
+    width: 60px;
+  }
+  .weather{
+    margin-top: 20px;
+    background-color:rgba(180,180,180, 0.3);
+    padding: 10px;
+    border-radius: 15px;
     
   }
   .description{
-      color:black;
+      color:whitesmoke;
       font-size:18px;
       font-weight:bold;
   }
   .humidity{
     font-size: 18px;
     font-weight:bold;
-    margin-top: 10px;
+    margin-top: 5px;
       
   }
   .wind{
 
     font-size:18px;
     font-weight:bold;
-    margin-top: 10px;
+    margin-top: 5px;
 
   }
   .flag{
     width: 25px;
+    border: 0.5px whitesmoke solid;
+    margin-right: 10px;
   }
   .country{
-    display: flex;
+  display: flex;
    align-items: center;
-   justify-content: space-between;
+   
+   
   }

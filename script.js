@@ -46,6 +46,8 @@ const weather = {
         document.querySelector(".wind").innerText =
           "Wind speed: " + speed + " km/h";
 
+        document.querySelector(".country_code").innerHTML=country;
+
         
         document.body.style.backgroundImage =
       "url('https://source.unsplash.com/1600x900/?" + name + "')";
